@@ -1,0 +1,4 @@
+if filename is not build.xml,then try this.
+	ant -f hello.xml sayHelloWorld
+	ant -buildfile hello.xml sayHelloWorld
+	ant -file hello.xml sayHelloWorld
